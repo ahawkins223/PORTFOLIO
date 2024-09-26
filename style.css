@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    font-family: "Lucidia Console", 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background: #7aa86e;
+    color: #000000;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+#hero b {
+    font-size: 1rem;
+}
+
+/*.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fffbfb;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background: #e2e2e2;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+}
+
+#contact a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
