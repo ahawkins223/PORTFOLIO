@@ -8,9 +8,9 @@ body {
 
 /* Header */
 header {
-    background: #333;
+    background: #000000;
     color: white;
-    padding: 10px 0;
+    padding: 2px 0;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 300px;
 }
 
 nav ul li a {
@@ -32,10 +32,10 @@ nav ul li a {
 
 /* Hero Section */
 #hero {
-    background: #7aa86e;
-    color: #000000;
-    padding: 50px 20px;
-    text-align: left;
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 #hero h1 {
@@ -61,19 +61,23 @@ nav ul li a {
 
 /* About Section */
 #about {
-    padding: 50px 20px;
-    background: #e2e2e2;
-    text-align: center;
+    padding:30px 20px;
+    background: #000000;
+    text-align: left;
+    color: #ffffff;
 }
 
 #about h2 {
     font-size: 2rem;
+    text-align: center;
 }
 
 /* Projects Section */
 #projects {
     padding: 50px 20px;
     text-align: center;
+    background: #000000;
+    color: #ffffff;
 }
 
 .project-grid {
@@ -83,10 +87,9 @@ nav ul li a {
 }
 
 .project {
-    background: #f4f4f4;
+    background: #000000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Section */
