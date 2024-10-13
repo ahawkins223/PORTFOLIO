@@ -1,95 +1,101 @@
 /* Global Styles */
 body {
-    font-family: "Lucidia Console", 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
 }
 
 /* Header */
 header {
-    background: #000000;
+    background: #121212;
     color: white;
-    padding: 2px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 300px;
+    margin: 0 30px;
 }
 
 nav ul li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
 }
 
 /* Hero Section */
 #hero {
     background: #000000;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
 #hero h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin: 0;
 }
 
 #hero p {
     font-size: 1.5rem;
 }
 
-#hero b {
-    font-size: 1rem;
-}
-
-/*.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #fffbfb;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 /* About Section */
 #about {
-    padding:30px 20px;
+    padding: 40px 20px;
     background: #000000;
-    text-align: left;
     color: #ffffff;
 }
 
 #about h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Projects Section */
 #projects {
     padding: 50px 20px;
     text-align: center;
-    background: #000000;
+    background: #121212;
     color: #ffffff;
 }
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
 }
 
 .project {
-    background: #000000;
+    background: #1a1a1a;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    color: #ffffff;
 }
 
 /* Contact Section */
@@ -103,6 +109,11 @@ nav ul li a {
 #contact a {
     color: #00ccff;
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #ffffff;
 }
 
 /* Footer */
